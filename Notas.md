@@ -52,3 +52,42 @@ Es un sistema operativo de 32 bits, fue el primer windows en tener 32 bits en es
  * Soporte de contenedores y Kubernetes
  
  La ultima version es la version 2022, esta ya incluye el trabajo desde la nube por medio de Azure
+
+  ## Unix
+Surge en la decada de 1960, a partir de un modelo que fue abandonado que llevaba el nombre de MULTICS (Debido a que la maquinaria no era viable para el tamaño de la maquina que hiba a necesitar el sistema operativo)
+ Se tomaron unas librerias y partes de ese proyecto fallido y se le puso el nombre UNICS, se implemento por primera vez en una computadora DEC PDP-72, actualmente se llama UNIX
+
+En los principios de años de los 70 fue creado el lenguaje C, fue creado por Dennis Ritchie en un principio fue creado para uso personal, se consebio por un programador para otro programador no para personas que no supieran programar
+A partir del año 1973, Dennis Ritchie y Ken Thompson reescribieron el lenguaje Unix en lenguaje de programacion C.
+A partir de eso se convierte en un sistema operativo multitarea y multiusuario que gano popularidad en entornos profesionales y universitarios debido a su estabilidad, seguridad y conformidad con estandares, especialmente a lo que respecta las redes.
+Actualmente Linux y macOS se consideran sistemas operativos "
+Unix-like"
+Se adapto por la milicia en las décadas pasadas debido al gran rendimiento que tuvo en su tiempo.
+### Integridad conceptual
+A unix se le conoce como la integridad conceptual, debido a que asegura a que todas las partes del sistema operativo trabajen juntas de manera armoniosa y eficiente
+Se puede resumir esta filosofia en ciertos puntos
+* Modularidad
+* Simplicidad
+* Composicion y reutilizacion 
+* Textualidad
+* Consistencia
+
+
+### Unix System V (Desarollado por AT&T en 1983)
+* Caracterizticas
+    * Estructura de archivo de jerarquia
+    * Shell de bourne
+    * Gestion de proyectos
+    * Inter-Procesamiento mediante IPC
+    * Sistemas de archivos Journaled
+    * Administracion de redes
+    * Estandare de interfaz de programacion
+    * Multiplexor de entrada y salida
+    * Administracion de la memoria virtual
+    * Soporte para terminales Virtuales
+      * ### Seguridad
+      * Modelo de permisos de archivos
+      * SuperUsuario
+      * Módulos de Autoridad y registro de eventos 
+      * Seguridad de la red
+
