@@ -91,3 +91,27 @@ Se puede resumir esta filosofia en ciertos puntos
       * Módulos de Autoridad y registro de eventos 
       * Seguridad de la red
 
+### Shell de Unix
+Es una interfaz que permite a los usuarios comunicarse con el sistema operativo, actua como interprete de comandos, donde se pueden ejecutar programas manipular archivos y realizar diversas tareas del sistema.
+Ejemplos de Shell
+* Bourne-Again Shell(Bash)
+* C Shell
+* Korn Shell 
+* tcsh
+* Z Shell
+## Linux
+Hubo una version previa a linux a la cual se llevo el nombre de Minix, fue una influencia para la creacion de linux ya que tenia unas caracterizticas que se encuentran actualmente en el sistema operativo de linux, hasta la fecha sigue influyendo.
+Tenia una arquitectura de microkernel la cual tienen la mayoria de los sistemas operativos actuales.
+### Distribuciones de Linux
+* Ubuntu: Ideal para principiantes
+* Fedora: Tiene un enfoque en la innovacion
+* Debian: Antiguas y de las mas solidas
+* Arch Linux: Control total sobre el sistema
+* CentOS: Para entornos empresariales 
+* openSUSE: Tienen muchas actualizaciones y caracterizticas
+* Mint: Por si migras de Windows tiene muchas opciones
+* Elementary: Inspiradad en MacOs
+
+Comenzo como un proyecto personal de Linus Torvalds en 1991, se queria crear similar a UNIX, en un lenguaje de programacion C fueron creadas las primeras versiones 
+Se lanzo la primera version de linux en 1994 linux 1.0 con una arquitectura de monolitica, con falta de portabilidad, por eso y mas razone fue muy criticado esta primera version.
+
