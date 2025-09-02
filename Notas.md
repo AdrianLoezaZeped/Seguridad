@@ -115,3 +115,30 @@ Tenia una arquitectura de microkernel la cual tienen la mayoria de los sistemas 
 Comenzo como un proyecto personal de Linus Torvalds en 1991, se queria crear similar a UNIX, en un lenguaje de programacion C fueron creadas las primeras versiones 
 Se lanzo la primera version de linux en 1994 linux 1.0 con una arquitectura de monolitica, con falta de portabilidad, por eso y mas razone fue muy criticado esta primera version.
 
+### Historia de Linux
+* 1991 (0.01)
+* 1992 (Cambia la licencia de GLP a GNU. Se crearon las primeras versiones de linux)
+* 1993 (Se crea la primera version Slackware y se establece el proyecto de Debian)
+* 1994 (1.0 ya con una interfaz grafica de usuario, salen tambien las versiones de Red Hat y SUSE)
+* 1995 (Se porta a la arquitectura DEC Alpha y a Sun Sparc que seria las estaciones de trabajo)
+* 1996 (2.0 se lanza la version con la caracteriztica de multiprocesamiento simetrico(SMP))
+* 1998 (Entra al mercado de las supercomputadoras y David A. Bader realiza el primer supercomputador basado en linux)
+* 1999 (Se realiza un entorno grafico de GNOME en el reemplazo gratuito de KDE, se anuncia la version 2.2 del nucleo de linux)
+* 2000 (Dell se convierte en el primer fabricante en intengrar linux a su linea de productos)
+* 2001 (Se lanza la version 2.4 del nucleo de linux)
+* 2003 (Se lanza la version de 2.6 del nucleo de linux)
+* 2005 (Sale el proyecto openSUSE comienza como una distribucion gratuitta de la comunidad novell)
+* 2006 (Oracle lanza su propia distribucion de Red Hat Enterprise Linux. Novell y Microsoft anuncia cooperacion para un mejor interoperabilidad y proteccion mutua de patentes)
+* 2007 (Dell comienza a distribuir laptops con ubuntu preinstalado)
+* 2011 (Se lanza la version 2.0 del nucleo de linux)
+* 2012 (Los ingresos agregados del mercado de servidores Linux superan los del resto del mercado de Unix)
+* 2013 (El sistema operativo basado en linux de google, Android, reclama el 75% del mercado de telefonos inteligentes)
+* 2014 (Ubuntu alcanza los 22,000 de usuarios)
+* 2015 (Se lanza la version 4.0 del nucleo de linux)
+* 2017 (Los gobiernos empiezan a utilizar los sistemas de linux como principal, por ejemplo Alemania)
+* 2019 (Se lanza la version 5.0 del nucleo de linux)
+* 2022 (Se lanza la version 6.0 del nucleo de linux, se han agregado cositas acerca de Virtualizacion, IA y Machine Learning, Rendimiento en la red)
+
+El nucleo original que esta escrito en lenguaje C, se esta proponiendo que se escriba el nucle en Rust debido a que tiene la caracteriztica que tiene una mayor proteccion de la memoria y pero el tovalds dijo que todavia no se realizara con Rust seguira en C de momento 
+Rust es un  lenguaje de programación moderno que prioriza la seguridad, la velocidad y la concurrencia, eliminando muchos errores en tiempo de compilación mediante un sistema de gestión de memoria sin recolector de basura. Permite el desarrollo de software eficiente a nivel de sistema, como sistemas operativos y aplicaciones web, con un rendimiento comparable al de lenguajes como C++. Su diseño se enfoca en la seguridad de memoria y en hilos, y es utilizado por empresas como Mozilla, Microsoft y Amazon en diversos proyectos, desde navegadores hasta servicios en la nube.
+
