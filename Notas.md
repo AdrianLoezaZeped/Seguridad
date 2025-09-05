@@ -142,3 +142,97 @@ Se lanzo la primera version de linux en 1994 linux 1.0 con una arquitectura de m
 El nucleo original que esta escrito en lenguaje C, se esta proponiendo que se escriba el nucle en Rust debido a que tiene la caracteriztica que tiene una mayor proteccion de la memoria y pero el tovalds dijo que todavia no se realizara con Rust seguira en C de momento 
 Rust es un  lenguaje de programación moderno que prioriza la seguridad, la velocidad y la concurrencia, eliminando muchos errores en tiempo de compilación mediante un sistema de gestión de memoria sin recolector de basura. Permite el desarrollo de software eficiente a nivel de sistema, como sistemas operativos y aplicaciones web, con un rendimiento comparable al de lenguajes como C++. Su diseño se enfoca en la seguridad de memoria y en hilos, y es utilizado por empresas como Mozilla, Microsoft y Amazon en diversos proyectos, desde navegadores hasta servicios en la nube.
 
+# Kali
+Fue creada y es mantenida por Offensive Security Ltd
+Kali linux esta basada en al distribucion de Debian GNU/Linux, su primera version (1.0) en marzo de 2013 basado en Debian 7"Wheezy".
+Los autores de la distribucion Kali son Mati Aharoni y Devon Kears a partir de sobreescritura de BackTrack que se podria decir que es si antecesora
+Kali Linux trae preinstalados mas de 600 programa incluyendo
+* Nmap(Escaner de puertos)
+* Wireshark(un sniffer)
+* John the Ripper (Un decifrador de contrasenas)
+* Suite Aircrack-ng(Software para pruebas de seguridad en las redes inalambricas)
+
+Es un software muy configurable y utilizado en la forencia debido a las herramientas que vienen incluidas en el sistema, como por ejemplo en las fotos que se oculta informacion, hay un programa para eso
+Kali en un principio era usado por medio de un live CD, live USB, como tambien se puede instalar como un sistema operativo principal.
+
+Kali es un sistema de codigo libre(no tiene costo), pero hay una version llamada "Kali Linux no-libre" que contiene varias secciones con herramientas que no son de codigo abierto, pero son permitidas la distribucion solo con un costo extra por licencias.
+## Sistema de archivos - filesystem
+Como dato curioso se llama boot y se quedo por el termino conocido de la "Trampa de la botas" hace referencia a eso el nombre que tiene actualmente todos los sistemas  operativos
+/bin - directorio raiz, donde todo inicia
+
+/bin - Contiene los programas en binario que deben estar presentes para que funcione el sistema de arranque
+
+/boot - Contiene la configuracion de arranque  
+
+/dev - Mantiene una lista de todos los dispositivos que el kernel conoce "Every is a file" como herencia de Unix todos lo dispositivos  son tratados como archivos.
+
+/temp - Directorio de almacenamiento temporal 
+
+/etc - Contiene todos los archivos de configuracion del sistema. Contiene todos lo Scripts necesarios 
+
+/etc/crontab - define cuando deben ejecutarse los trabajos automatizados
+
+/etc/fstab - Tabla de dispositivos de almacenamiento y su punto de montaje asociado
+
+/etc/password - contiene una lista de las cuentas de usuario
+
+/home - En configuraciones normales todos los usuarios tienen un directorio en /home. Los usuarios pueden escribir en sus directorios home
+
+/lib - Biblioteca de archivos compartidos que usan los programas del sistema de nucleo
+
+/lost+found - Cada una de las particiones formateadas o dispositivos que usan el sistema de archivos Linux(Respaldo por perdida de datos)
+
+/media - Contiene los puntos de montajes de drivers USB, CD-ROMs, que se montan automaticamente cuando se insertan 
+
+/mnt - Contiene los puntos de montajes de drivers USB, CD-ROMs, que se montan manualmente cuando se insertan, era usado en las primera versiones, se ocupaba montar y desmontar es una herrencia directa de UNIX
+
+/otp - Se usa para instalar software "opcional" tipo comercial
+
+/proc - Contiene informacion sobre el sistema (CPU, memoria, dispositivos PSI, Plug and play)
+
+/root - Directorion de la cuenta root
+
+/sbin - Contiene binarios de administracion del sistema. Programas que realizan tareas vitales de sistema y generalmente estan solo accesible por el superusuario
+
+/usr - Contiene los archivos propios del usuario
+
+/usr/bin - Contiene los programas ejecutables instalados por la version de linux
+
+/usr/lib - La biblioteca compartida para los programa /usr/bin
+
+/usr/local - Es donde estan instalados los programas que no estan incluidos con su distribucion, pero estan pensados para su uso en todo el sistema
+
+/usr/sbin - Contiene mas programas del administrador del sistema'
+
+/usr/share - Contiene los datos compartidos por la aplicaciones por ejemplo iconos, sonidos, fondos de pantalla
+
+/usr/share/doc - Este directorio se puede buscar los archivos de documentancion organizados en paquetes, la mayoria esta en internet en caso de no encontrarlos en el directorio
+
+/var - Es un directorio que va cambiar muy seguido los datos que contiene, y guardan los datos que se esperan que cambien, por ejemplo las bases de datos, cola de impresion, correos de los usuarios
+
+/var/log - Contiene archivos que registra las bitacoras del sistema, lo cual son las actividades del programa en el sistema. Se debe activar en algunas versiones. Algunos sistemas 
+solo el superusuario solo tiene acceso a las bitacoras
+## Comandos de Kali Linux
+nmap --help (El guion doble indica que son las palabras completas)
+
+nmap -h (Un solo guion significa que sera abreviado)
+
+man nmap (Para sacar el manual se utiliza el man + complemento)
+
+pwd (Directorio en el que se esta trabajando)
+
+whoami (Conocer el usuario que esta conectado)
+
+ls (Muestra los directorios que se encuentran en la carperta)
+
+ls - l (Muestra la informacion en formato largo)
+
+ls -lh (Ordenar por tamano y en formato largo)
+
+### Redireccionamientos  a los canales normales
+$comando > archivo (stdout)
+
+$comando < archivo (stdin)
+
+(stderr)
+
