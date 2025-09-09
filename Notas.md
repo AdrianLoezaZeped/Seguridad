@@ -229,6 +229,25 @@ ls - l (Muestra la informacion en formato largo)
 
 ls -lh (Ordenar por tamano y en formato largo)
 
+less (nombre del script) - te permite navegar desde la terminal de manera mas practica
+
+rm (borrar algo y ya no se puede recuperar) 
+
+rm -i (confirmar que se quiere borrar)
+
+rm -r (Borra todo el directorio)
+
+rm -d (Borrar directorios vacios)
+
+rm -v (Muestra un mensaje de lo que se elimino)
+
+ln (Creacion de Iigas)
+
+ln file link (creacion de Liga dura)
+
+ln -s item link (Creacion de liga simbolica)
+
+
 ### Redireccionamientos  a los canales normales
 $comando > archivo (stdout)
 
